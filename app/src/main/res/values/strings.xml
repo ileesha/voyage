@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Voyage</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="dropdown_names">
+        <item>Karwar</item>
+        <item>Gokarna</item>
+        <item>Kumta</item>
+        <item>Honnavar</item>
+        <item>Murudeshwar</item>
+    </string-array>
+
+</resources>

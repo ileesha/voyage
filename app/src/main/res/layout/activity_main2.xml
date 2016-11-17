@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/r"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tv_aboutus"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="About us"
+        android:textSize="70sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal|center_vertical" />
+
+    <TextView
+        android:id="@+id/tv_details"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="25px"
+        android:text="This project aims at providing details of places to visit within Karnataka. It plans ones trip within a few minutes, listing the various places for sightseeing, trekking, roadtrips, hotels that are available etc. It is a very handy and user friendly app.
+This app makes sure that you dont worry in case of your last minute plans with friends and family.
+
+Plan.Travel.Live.
+Make memories that will last a lifetime."
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_weight="0.66" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:textColor="#fff"
+        android:background="#000"
+        android:id="@+id/btProceed2"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

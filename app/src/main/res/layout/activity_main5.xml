@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@drawable/t">
+    <TableRow>
+        <TextView
+            android:text="From (city)"
+            android:id="@+id/from"
+            android:layout_marginLeft="20px"
+            android:width="120dp"/>
+        <Spinner
+            android:id="@+id/txtFrom"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/from"
+            ></Spinner>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_marginLeft="20px"
+            android:id="@+id/to"
+            android:text="To (city)" />
+        <Spinner
+            android:id="@+id/txtTo"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/to"
+            ></Spinner>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonSearch"
+            android:text="Search"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:alpha="1"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:background="#a42422"
+            android:onClick="Search"
+            android:layout_column="1" />
+    </TableRow>
+
+</TableLayout>

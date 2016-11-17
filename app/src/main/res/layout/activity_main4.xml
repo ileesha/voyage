@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@drawable/t"
+    >
+    <TableRow>
+        <TextView
+            android:text="First Name"
+            android:width="120dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/txtFirstName"
+            android:width="200dp"
+            android:text="Ileesha"
+            android:layout_marginLeft="20dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Last Name"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/txtLastName"
+            android:width="200dp"
+            android:text="Ileesha"
+            android:layout_marginLeft="20dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Phone number"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_marginLeft="20dp"
+            android:text="7878787878"
+            android:width="200dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Email id"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/txtEmail"
+            android:text="Ileesha"
+            android:width="200dp"
+            android:layout_marginLeft="20dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Username"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/txtUser"
+            android:width="200dp"
+            android:text="ileesha"
+            android:layout_marginLeft="20dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Password"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/txtPass"
+            android:text="ilee"
+            android:inputType="textPassword"
+            android:width="200dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Confirm Password"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/txtConfPass"
+            android:text="ilee"
+            android:inputType="textPassword"
+            android:width="200dp"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/buttonCreateAccount"
+            android:text="Create Account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:alpha="0.5"
+            android:onClick="CreateAccount"
+            android:layout_marginLeft="80dp"
+            android:textAlignment="center" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@drawable/v">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Source"
+        android:id="@+id/src"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="TO"
+        android:id="@+id/to"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/src"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Destination"
+        android:id="@+id/dest"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/to"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Route:"
+        android:id="@+id/route"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/dest"
+        android:layout_alignEnd="@+id/back" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore these places"
+        android:textColor="#000"
+        android:background="#fff"
+        android:id="@+id/routeplaces"
+        android:onClick="Explore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/route" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/back"
+        android:onClick="goBack"
+        android:textColor="#000"
+        android:background="#fff"
+        android:layout_marginBottom="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/routeplaces" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Distance"
+        android:id="@+id/dist"
+        android:layout_below="@+id/dest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+
+</RelativeLayout>

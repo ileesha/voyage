@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:background="@drawable/s">
+    <TableRow>
+        <TextView
+            android:text="User Name"
+            android:width="120dp"
+             />
+        <EditText
+            android:id="@+id/txtUserName"
+            android:text="ileesha"
+            android:width="200dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Password" />
+        <EditText
+            android:id="@+id/txtPassword"
+            android:text="ilee"
+            android:inputType="textPassword"/>
+    </TableRow>
+    <TableRow>
+        <TextView/>
+        <CheckBox
+            android:id="@+id/chkRememberPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Remember Password"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:onClick="Login"
+            android:textColor="#fff"
+            android:background="#69a343"
+            android:text="Log In"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/buttonSignUp"
+            android:onClick="Signup"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:background="#69a343"
+            android:text="Sign Up"
+            android:layout_column="0" />
+    </TableRow>
+</TableLayout>
